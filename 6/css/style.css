@@ -1,0 +1,204 @@
+/* Global */
+@font-face {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Oswald"), url("../fonts/oswaldregular.woff2") format("woff2"), url("../fonts/oswaldregular.woff") format("woff");
+}
+@font-face {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Oswald"), url("../fonts/oswalmedium.woff2") format("woff2"), url("../fonts/oswaldmedium.woff") format("woff");
+}
+.clear-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.box-sizing {
+  box-sizing: border-box;
+}
+/* Blocks */
+.button {
+  font-family: "Oswald", "Arial", sans-serif;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #68B738;
+  text-decoration: none;
+}
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+.page__body {
+  margin: 0;
+  min-height: 100%;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+.page-header {
+  padding-top: 12px;
+}
+.main-navigation__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.main-navigation__list a {
+  text-decoration: none;
+  color: #000000;
+}
+.opening__wrapper {
+  box-sizing: border-box;
+  position: relative;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.opening__wrapper::before {
+  content: "";
+  width: 320px;
+  height: 302px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-image: linear-gradient(to top, rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../img/opening-cat.jpg");
+}
+.opening__title {
+  color: #FFFFFF;
+}
+.opening__text {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.title {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+}
+.program {
+  background-color: #F2F2F2;
+}
+.program__wrapper {
+  box-sizing: border-box;
+  padding: 21px 20px 18px;
+}
+.program__name {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 37px;
+  text-transform: uppercase;
+}
+.program__link {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
+.instruction__header {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 40px;
+}
+.instruction__wrapper {
+  box-sizing: border-box;
+  padding: 27px 21px 42px 20px;
+}
+.example {
+  background-color: #EAEAEA;
+}
+.example__wrapper {
+  box-sizing: border-box;
+  padding: 27px 20px 42px 21px;
+}
+.example__header {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+}
+.example__text {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.table__value {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.table__description {
+  font-size: 12px;
+  line-height: 12px;
+}
+.slider {
+  box-sizing: border-box;
+  padding-bottom: 25px;
+}
+.slider__label {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.page-footer__bottom-wrapper {
+  background-color: #F2F2F2;
+}
+.contacts__text {
+  box-sizing: border-box;
+  padding: 28px 19px 22px 19px;
+}
+.contacts__invitation {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+.map iframe {
+  border: none;
+  display: block;
+}
+.socials__wrapper {
+  box-sizing: border-box;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.socials__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.copyright__link {
+  font-size: 16px;
+  text-decoration: none;
+  color: #444444;
+}
+
+/*# sourceMappingURL=style.css.map */
