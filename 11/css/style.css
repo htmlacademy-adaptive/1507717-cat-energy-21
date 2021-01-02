@@ -1969,6 +1969,11 @@ img {
     padding-left: 38px;
   }
 }
+.show-more__wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 .show-more__title {
   font-family: "Oswald", "Arial", sans-serif;
   font-weight: 400;
