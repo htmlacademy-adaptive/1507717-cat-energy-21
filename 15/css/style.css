@@ -1341,11 +1341,19 @@ img {
     margin-bottom: 69px;
   }
 }
-.example__quote br {
+.example__br {
   display: none;
 }
 @media (min-width: 1440px) {
-  .example__quote br {
+  .example__br {
+    display: inline;
+  }
+}
+.example__br--tablet {
+  display: none;
+}
+@media (min-width: 768px) and (max-width: 1439px) {
+  .example__br--tablet {
     display: inline;
   }
 }
@@ -2340,10 +2348,6 @@ img {
 .input-text--phone input:disabled + svg {
   fill: #68B738;
 }
-.input-text--email.input-text--error input + svg,
-.input-text--phone.input-text--error input + svg {
-  fill: #FF8282;
-}
 @media (min-width: 1440px) {
   .input-text--email {
     margin-bottom: 0;
@@ -2391,8 +2395,11 @@ img {
     top: 15px;
   }
 }
-.input-text--error input {
+.input-text--error input:required {
   border: 2px solid #FF8282;
+}
+.input-text--error input:required + svg {
+  fill: #FF8282;
 }
 .choice {
   font-family: "Oswald", "Arial", sans-serif;
